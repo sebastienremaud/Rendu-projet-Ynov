@@ -1,0 +1,58 @@
+ /* Navbar surcharge toggler bootstrap*/
+ .navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border: none;
+}
+.navbar-light .navbar-toggler-icon {
+background-image: url(../Images/burger.png);
+}
+ 
+ /* HEADER */
+ .header {
+    background-image: url("../Images/campus-nuit.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+  }
+.intrologo 
+{
+    width: 40%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+ /* Qui sommes nous ? */
+h1 {
+    text-align: center;
+    margin: 50px auto;
+    color: grey;
+}
+.texte {
+    column-count: 2;
+    column-gap: 40px;
+    margin-bottom: 50px;
+}
+p{
+margin: 0;
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    background-color: #130e0e;
+    color: grey;
+    text-align: center;
+    height: auto;
+    padding-top: 15px;
+}
+
+.footer p {
+    letter-spacing: 0.5px;
+}
+.reseaux img{
+    padding: 5px;
+    height: 50px;
+    margin: 15px;
+    
+}

@@ -1,0 +1,106 @@
+@media (min-width: 768px) { 
+/* Qui sommes nous ? */
+.paragraphe .texte {
+    line-height: 200%;
+    column-gap: 60px;
+}
+
+
+/* Formations */
+.formation {
+    background-image: url("../Images/Sans_titre1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    height: 220px; 
+    text-align: center;
+    padding: 35px;
+}
+.formation h2 {
+    margin: 50px auto;
+
+}
+
+/* Bachelors */
+.section.liste-formation {
+        background: rgb(206,206,206);
+        padding: 100px 0;
+    }
+.section.liste-formation .largeur-t4 {
+    padding: 15px;
+    text-align: center;
+
+}
+.section.liste-formation .largeur-t4 p {
+    text-align: left;
+}
+
+.section h3 {
+    margin: 0 auto 50px;
+    border-bottom: 3px grey solid;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+
+/* Contact */
+.telephone {
+    text-align: center;
+}
+.centre_bloc1 {
+    text-align: center;
+    margin: 30px auto;
+}
+.radius {
+    width            : 600px;
+    height           : 58px;
+    margin           : 20px auto;
+    border-radius    : 29px;
+    background-color : #fff;
+    border: 1px black solid;
+}
+
+input {
+    width            : 80%;
+    height           : 58px;
+    border           : 0px solid;
+    font-size        : 18px;
+    background-color : transparent;
+    border-radius: 20px;
+}
+
+button {
+    height: 45px;
+    margin: 5px;
+    border: 2px grey solid;
+    border-radius: 29px;
+    text-align: center;
+    background-color: rgb(84, 212, 221);
+    margin-right: -100px;
+    width: 180px;
+    color: grey;
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    background-color: #130e0e;
+    color: grey;
+    height: 15%;
+    padding-top: 15px;
+}
+.nom {
+    text-align: left;
+    margin-top: 15px;
+}
+.reseaux {
+    text-align: right;
+}
+.reseaux img{
+    padding: 5px;
+    height: 30px;
+    margin: 15px;
+    
+}
+}
